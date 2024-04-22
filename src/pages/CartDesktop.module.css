@@ -1,0 +1,79 @@
+.title {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 43px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.calculateButton {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.calculateButtonParent,
+.cartDesktop {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.calculateButtonParent {
+  width: 1248px;
+  align-items: flex-start;
+  padding: 0 0 101px;
+  gap: var(--gap-45xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--px-heading-1-size);
+  color: var(--dark-colors-white-dark);
+  font-family: var(--px-heading-5);
+}
+.cartDesktop {
+  width: 100%;
+  position: relative;
+  background-color: var(--dark-colors-black-dark);
+  overflow: hidden;
+  align-items: center;
+  padding: var(--padding-45xl) var(--padding-xl) 96px;
+  gap: var(--gap-76xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1050px) {
+  .calculateButtonParent {
+    padding-bottom: var(--padding-47xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 975px) {
+  .title {
+    font-size: var(--px-heading-2-size);
+    line-height: 34px;
+  }
+}
+@media screen and (max-width: 725px) {
+  .calculateButtonParent {
+    gap: var(--gap-13xl);
+    padding-bottom: 43px;
+    box-sizing: border-box;
+  }
+  .cartDesktop {
+    gap: var(--gap-28xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .title {
+    font-size: var(--px-heading-4-size);
+    line-height: 26px;
+  }
+  .calculateButtonParent {
+    gap: var(--gap-base);
+  }
+  .cartDesktop {
+    gap: var(--gap-5xl);
+  }
+}

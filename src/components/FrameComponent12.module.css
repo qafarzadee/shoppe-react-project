@@ -1,0 +1,194 @@
+.img04Icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-5xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.div,
+.hairPinSet {
+  position: relative;
+  line-height: 26px;
+}
+.div {
+  text-transform: capitalize;
+  font-weight: 500;
+  color: var(--dark-colors-accent-dark);
+  display: inline-block;
+  min-width: 75px;
+  white-space: nowrap;
+}
+.hairPinSetOf3Parent,
+.img04Parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.img04Parent {
+  height: 472px;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.img05Icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-5xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.div1,
+.plaineNecklace {
+  position: relative;
+  line-height: 26px;
+}
+.div1 {
+  text-transform: capitalize;
+  font-weight: 500;
+  color: var(--dark-colors-accent-dark);
+  display: inline-block;
+  min-width: 69px;
+  white-space: nowrap;
+}
+.img05Parent,
+.plaineNecklaceParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.img05Parent {
+  height: 472px;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.img07Icon {
+  width: 380px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  max-height: 100%;
+  object-fit: cover;
+  display: none;
+  max-width: 100%;
+}
+.hoverChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 65px;
+  right: -380px;
+  bottom: -65px;
+  left: 380px;
+  border-radius: var(--br-9xs) var(--br-9xs) 0 0;
+  background-color: var(--dark-colors-light-gray-dark);
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+}
+.addToCart {
+  position: relative;
+  display: inline-block;
+  min-width: 106px;
+  z-index: 1;
+}
+.hover,
+.img07Parent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.hover {
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-3xl) var(--padding-xl);
+  box-sizing: border-box;
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+}
+.img07Parent {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  align-items: flex-end;
+  justify-content: flex-start;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.div2,
+.yukiHairPin {
+  position: relative;
+  line-height: 26px;
+}
+.div2 {
+  text-transform: capitalize;
+  font-weight: 500;
+  color: var(--dark-colors-accent-dark);
+  display: inline-block;
+  min-width: 73px;
+  white-space: nowrap;
+}
+.yukiHairPinSetOf3Parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--px-heading-4-size);
+}
+.frameGroup,
+.frameParent {
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  height: 472px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-4xl);
+  font-size: var(--px-heading-5-size);
+}
+.frameParent {
+  align-self: stretch;
+  display: grid;
+  flex-direction: row;
+  gap: var(--gap-35xl);
+  grid-template-columns: repeat(3, minmax(285px, 1fr));
+  text-align: left;
+  font-size: var(--px-heading-4-size);
+  color: var(--dark-colors-white-dark);
+  font-family: var(--px-heading-5);
+}
+@media screen and (max-width: 1050px) {
+  .frameParent {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(285px, 494px));
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameParent {
+    gap: var(--gap-8xl);
+    grid-template-columns: minmax(285px, 1fr);
+  }
+}
+@media screen and (max-width: 450px) {
+  .div,
+  .div1,
+  .div2,
+  .hairPinSet,
+  .plaineNecklace,
+  .yukiHairPin {
+    font-size: var(--px-heading-5-size);
+    line-height: 21px;
+  }
+}

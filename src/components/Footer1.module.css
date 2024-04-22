@@ -1,0 +1,219 @@
+.frameChild {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--dark-colors-gray-dark);
+  box-sizing: border-box;
+}
+.contact {
+  position: relative;
+  line-height: 27px;
+  display: inline-block;
+  min-width: 73px;
+}
+.termsAndConditions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.shippingAndReturns,
+.termsOfServices {
+  position: relative;
+  line-height: 27px;
+}
+.termsAndConditionsParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-22xl);
+  max-width: 100%;
+}
+.anEmailGet {
+  text-transform: lowercase;
+}
+.giveAnEmailContainer {
+  position: relative;
+  line-height: 27px;
+}
+.iconColor {
+  width: 25px;
+  height: 8.7px;
+  position: relative;
+}
+.copyrightIcon,
+.emailIcon {
+  display: flex;
+  align-items: flex-start;
+}
+.copyrightIcon {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-smi) 0 0;
+}
+.emailIcon {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.newsletterSubscriptionChild {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--dark-colors-white-dark);
+  box-sizing: border-box;
+}
+.newsletterSubscription,
+.newsletterSubscriptionWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.newsletterSubscription {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.newsletterSubscriptionWrapper {
+  width: 396px;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameParent,
+.lineParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.lineParent {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-17xl);
+}
+.termsOfUse,
+.termsOfUseWrapper {
+  align-self: stretch;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.termsOfUse {
+  flex: 1;
+  position: relative;
+  border-top: 1px solid var(--dark-colors-gray-dark);
+  z-index: 1;
+}
+.termsOfUseWrapper {
+  height: 67px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-47xl);
+  margin-top: -10px;
+}
+.privacyPolicy1,
+.termsOfUse1 {
+  color: var(--dark-colors-light-gray-dark);
+}
+.shellyTermsOfContainer {
+  position: relative;
+  line-height: 27px;
+  display: inline-block;
+  max-width: 100%;
+}
+.iconColor1,
+.iconColor2,
+.iconColor3 {
+  height: 18px;
+  width: 18.5px;
+  position: relative;
+}
+.iconColor2,
+.iconColor3 {
+  width: 10px;
+}
+.iconColor3 {
+  width: 18px;
+}
+.iconColorWrapper {
+  width: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.iconColor4 {
+  width: 20px;
+  height: 17px;
+  position: relative;
+}
+.iconColorContainer,
+.iconColorParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.iconColorContainer {
+  width: 20px;
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.iconColorParent {
+  flex-direction: row;
+  gap: var(--gap-10xl-8);
+}
+.footer,
+.privacyPolicy {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.privacyPolicy {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  margin-top: -10px;
+  color: var(--dark-colors-white-dark);
+}
+.footer {
+  width: 1248px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 var(--padding-11xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--px-heading-5-size);
+  color: var(--dark-colors-light-gray-dark);
+  font-family: var(--px-heading-5);
+}
+@media screen and (max-width: 950px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 700px) {
+  .termsAndConditionsParent {
+    flex-wrap: wrap;
+    gap: var(--gap-xl);
+  }
+  .lineParent {
+    gap: var(--gap-lg);
+  }
+  .privacyPolicy {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,130 @@
+.img02Icon {
+  height: 136px;
+  width: 136px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  object-fit: cover;
+}
+.des,
+.div,
+.ollieEarrings {
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  min-width: 121px;
+}
+.des,
+.div {
+  line-height: 27px;
+  min-width: 114px;
+}
+.div {
+  color: var(--dark-colors-accent-dark);
+  min-width: 59px;
+  white-space: nowrap;
+}
+.desParent,
+.ollieEarringsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.desParent {
+  gap: var(--gap-11xs);
+  font-size: var(--px-heading-5-size);
+  color: var(--dark-colors-light-gray-dark);
+}
+.ollieEarringsParent {
+  flex: 1;
+  padding: 0 var(--padding-58xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-sm);
+  min-width: 129px;
+}
+.quantityChild {
+  height: 53px;
+  width: 102px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--dark-colors-dark-gray-dark);
+  flex-shrink: 0;
+  display: none;
+}
+.div1,
+.div2,
+.div3 {
+  position: relative;
+  line-height: 27px;
+  display: inline-block;
+  min-width: 9px;
+  z-index: 1;
+}
+.div2,
+.div3 {
+  min-width: 5px;
+}
+.div3 {
+  min-width: 10px;
+}
+.quantity {
+  border-radius: var(--br-9xs);
+  background-color: var(--dark-colors-dark-gray-dark);
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-sm) var(--padding-xs)
+    var(--padding-base);
+  gap: var(--gap-5xl);
+}
+.vectorIcon {
+  height: 12px;
+  width: 11.8px;
+  position: relative;
+}
+.img02Parent,
+.quantityParent,
+.termsLinkInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.quantityParent {
+  width: 165.8px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--px-heading-5-size);
+}
+.img02Parent,
+.termsLinkInner {
+  max-width: 100%;
+}
+.img02Parent {
+  flex: 1;
+  justify-content: flex-start;
+  gap: var(--gap-20xl);
+}
+.termsLinkInner {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-10xs-2) 0 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--px-heading-4-size);
+  color: var(--dark-colors-white-dark);
+  font-family: var(--px-heading-5);
+}
+@media screen and (max-width: 725px) {
+  .img02Parent {
+    flex-wrap: wrap;
+    gap: var(--gap-lgi);
+  }
+}
+@media screen and (max-width: 450px) {
+  .ollieEarrings {
+    font-size: var(--px-heading-5-size);
+    line-height: 21px;
+  }
+}

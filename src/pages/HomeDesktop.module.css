@@ -1,0 +1,45 @@
+.frameParent,
+.homeDesktop {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameParent {
+  width: 1248px;
+  align-items: flex-start;
+  gap: var(--gap-45xl);
+  max-width: 100%;
+}
+.homeDesktop {
+  width: 100%;
+  position: relative;
+  background-color: var(--dark-colors-black-dark);
+  overflow: hidden;
+  align-items: center;
+  padding: var(--padding-45xl) var(--padding-xl) var(--padding-71xl);
+  box-sizing: border-box;
+  gap: 250px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .homeDesktop {
+    gap: 125px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameParent {
+    gap: var(--gap-13xl);
+  }
+  .homeDesktop {
+    gap: 62px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameParent {
+    gap: var(--gap-base);
+  }
+  .homeDesktop {
+    gap: 31px;
+  }
+}

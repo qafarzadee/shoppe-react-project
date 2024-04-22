@@ -1,0 +1,231 @@
+.title,
+.viewAll {
+  position: relative;
+  font-weight: 500;
+}
+.title {
+  margin: 0;
+  font-size: inherit;
+  line-height: 43px;
+  font-family: inherit;
+}
+.viewAll {
+  line-height: 26px;
+  text-transform: capitalize;
+  display: inline-block;
+  min-width: 74px;
+}
+.titleParent,
+.viewAllWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.viewAllWrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) 0 0;
+  font-size: var(--px-heading-4-size);
+  color: var(--dark-colors-accent-dark);
+}
+.titleParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.img01Icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-5xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.div,
+.liraEarrings {
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  min-width: 114px;
+}
+.div {
+  text-transform: capitalize;
+  font-weight: 500;
+  color: var(--dark-colors-accent-dark);
+  min-width: 74px;
+  white-space: nowrap;
+}
+.img01Parent,
+.liraEarringsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.img01Parent {
+  height: 472px;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.img02Icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-5xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.div1,
+.halEarrings {
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  min-width: 109px;
+}
+.div1 {
+  text-transform: capitalize;
+  font-weight: 500;
+  color: var(--dark-colors-accent-dark);
+  min-width: 73px;
+  white-space: nowrap;
+}
+.halEarringsParent,
+.img02Parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.img02Parent {
+  height: 472px;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.img04Icon {
+  align-self: stretch;
+  height: 380px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.kaedeHairPi,
+.of3,
+.span {
+  letter-spacing: 0.03em;
+}
+.div2,
+.kaedeHairPinContainer {
+  position: relative;
+  text-transform: capitalize;
+}
+.kaedeHairPinContainer {
+  align-self: stretch;
+  line-height: 33px;
+}
+.div2 {
+  line-height: 26px;
+  font-weight: 500;
+  color: var(--dark-colors-accent-dark);
+  display: inline-block;
+  min-width: 75px;
+  white-space: nowrap;
+}
+.kaedeHairPinSetOf3Parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.frameGroup,
+.frameParent,
+.img04Parent {
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.img04Parent {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+}
+.frameGroup,
+.frameParent {
+  align-self: stretch;
+}
+.frameGroup {
+  display: grid;
+  flex-direction: row;
+  gap: var(--gap-36xl-5);
+  grid-template-columns: repeat(3, minmax(285px, 1fr));
+  font-size: var(--px-heading-4-size);
+}
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 var(--padding-mini);
+  box-sizing: border-box;
+  gap: var(--gap-20xl);
+  text-align: left;
+  font-size: var(--px-heading-1-size);
+  color: var(--dark-colors-white-dark);
+  font-family: var(--px-heading-5);
+}
+@media screen and (max-width: 1050px) {
+  .title {
+    font-size: var(--px-heading-2-size);
+    line-height: 34px;
+  }
+  .frameGroup {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(285px, 494px));
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameGroup {
+    gap: var(--gap-9xl);
+    grid-template-columns: minmax(285px, 1fr);
+  }
+  .frameParent {
+    gap: var(--gap-lgi);
+  }
+}
+@media screen and (max-width: 450px) {
+  .title {
+    font-size: var(--px-heading-4-size);
+    line-height: 26px;
+  }
+  .viewAll {
+    font-size: var(--px-heading-5-size);
+    line-height: 21px;
+  }
+  .titleParent {
+    flex-wrap: wrap;
+  }
+  .div,
+  .div1,
+  .div2,
+  .halEarrings,
+  .kaedeHairPinContainer,
+  .liraEarrings {
+    font-size: var(--px-heading-5-size);
+    line-height: 21px;
+  }
+  .div2,
+  .kaedeHairPinContainer {
+    line-height: 26px;
+  }
+  .div2 {
+    line-height: 21px;
+  }
+}

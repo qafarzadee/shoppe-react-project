@@ -1,0 +1,417 @@
+.sliderIcon {
+  position: absolute;
+  top: 624px;
+  left: 160px;
+  width: 540px;
+  height: 2px;
+  z-index: 1;
+}
+.empty,
+.liraEarrings {
+  position: relative;
+  z-index: 1;
+}
+.liraEarrings {
+  margin: 0;
+  font-size: inherit;
+  line-height: 35px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.empty {
+  font-size: var(--px-heading-4-size);
+  line-height: 26px;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: var(--dark-colors-accent-dark);
+  display: inline-block;
+  min-width: 74px;
+  white-space: nowrap;
+}
+.paginationInstance,
+.paginationInstanceWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.paginationInstance {
+  flex-direction: column;
+  gap: var(--gap-4xl);
+}
+.paginationInstanceWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-11xs);
+  font-size: var(--px-heading-2-size);
+}
+.star11,
+.star14,
+.star15,
+.star151,
+.star16 {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 18px;
+  z-index: 1;
+}
+.categories,
+.iconColor {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.iconColor {
+  flex-direction: row;
+  gap: var(--gap-3xs);
+}
+.categories {
+  flex-direction: column;
+  padding: var(--padding-7xs) 0 0;
+}
+.customerReview {
+  position: relative;
+  line-height: 27px;
+  z-index: 1;
+}
+.sKU {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-5xl);
+}
+.loremIpsumDolor {
+  align-self: stretch;
+  position: relative;
+  line-height: 27px;
+  z-index: 1;
+}
+.productName {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+  gap: var(--gap-lgi);
+}
+.quantityChild {
+  height: 53px;
+  width: 102px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--dark-colors-dark-gray-dark);
+  flex-shrink: 0;
+  display: none;
+}
+.imageSet,
+.imageSet1,
+.imageSet2 {
+  position: relative;
+  line-height: 27px;
+  display: inline-block;
+  min-width: 9px;
+  z-index: 1;
+}
+.imageSet1,
+.imageSet2 {
+  min-width: 5px;
+}
+.imageSet2 {
+  min-width: 10px;
+}
+.buttonChild,
+.quantity {
+  border-radius: var(--br-9xs);
+}
+.quantity {
+  background-color: var(--dark-colors-dark-gray-dark);
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-sm) var(--padding-xs)
+    var(--padding-base);
+  gap: var(--gap-5xl);
+  z-index: 1;
+}
+.buttonChild {
+  height: 53px;
+  width: 360px;
+  position: relative;
+  border: 1px solid var(--dark-colors-white-dark);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.addToCart {
+  position: relative;
+  display: inline-block;
+  min-width: 106px;
+  z-index: 1;
+}
+.button,
+.title {
+  flex-direction: row;
+  align-items: flex-start;
+}
+.button {
+  flex: 1;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--dark-colors-white-dark);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  padding: var(--padding-sm) var(--padding-xl);
+  min-width: 106px;
+  white-space: nowrap;
+  max-width: 100%;
+  z-index: 1;
+}
+.title {
+  align-self: stretch;
+  flex-wrap: wrap;
+  gap: var(--gap-4xl);
+  color: var(--dark-colors-white-dark);
+}
+.productImage,
+.slider,
+.title {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.slider {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-29xl);
+}
+.productImage {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-base) var(--padding-12xs);
+  box-sizing: border-box;
+  color: var(--dark-colors-light-gray-dark);
+}
+.frameChild,
+.iconColor1 {
+  height: 18px;
+  width: 19.8px;
+  position: relative;
+  z-index: 1;
+}
+.frameChild {
+  height: 20.5px;
+  width: 1px;
+  border-right: 1px solid var(--dark-colors-gray-dark);
+  box-sizing: border-box;
+}
+.iconColorParent {
+  height: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameWrapper {
+  width: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.div,
+.sku {
+  position: relative;
+  line-height: 27px;
+  display: inline-block;
+  min-width: 35px;
+  z-index: 1;
+}
+.div {
+  color: var(--dark-colors-light-gray-dark);
+  min-width: 18px;
+}
+.frameDiv,
+.skuParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.skuParent {
+  gap: var(--gap-base);
+}
+.frameDiv {
+  padding: 0 var(--padding-12xs);
+}
+.categories1 {
+  position: relative;
+  line-height: 27px;
+  display: inline-block;
+  min-width: 85px;
+  z-index: 1;
+}
+.frameContainer,
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.frameGroup {
+  gap: var(--gap-18xl);
+}
+.iconColor2,
+.iconColor3,
+.iconColor4 {
+  height: 16.1px;
+  width: 21.3px;
+  position: relative;
+  z-index: 1;
+}
+.iconColor3,
+.iconColor4 {
+  height: 17.1px;
+  width: 10px;
+}
+.iconColor4 {
+  width: 18px;
+}
+.iconColorGroup {
+  height: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl-4);
+}
+.fashionStyle {
+  position: relative;
+  line-height: 27px;
+  display: inline-block;
+  min-width: 105px;
+  z-index: 1;
+}
+.fashionStyleWrapper,
+.frameParent1,
+.kaedeHairPinInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.fashionStyleWrapper {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-12xs);
+}
+.frameParent1,
+.kaedeHairPinInner {
+  flex-direction: column;
+}
+.frameParent1 {
+  gap: var(--gap-52xl);
+}
+.kaedeHairPinInner {
+  padding: var(--padding-12xs) 0 0;
+  color: var(--dark-colors-light-gray-dark);
+}
+.iconColor5 {
+  width: 20px;
+  height: 16.1px;
+  position: relative;
+  z-index: 1;
+}
+.iconColorWrapper {
+  flex-direction: column;
+  padding: var(--padding-11xs-9) 0 0;
+}
+.frameParent,
+.iconColorWrapper,
+.kaedeHairPin {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.kaedeHairPin {
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-base-5);
+}
+.frameParent {
+  position: absolute;
+  top: 0;
+  left: 762px;
+  width: 486px;
+  flex-direction: column;
+  gap: var(--gap-45xl);
+  max-width: 100%;
+}
+.img01Icon,
+.img2Icon,
+.img3Icon,
+.img4Icon,
+.img5Icon {
+  border-radius: var(--br-5xs);
+  object-fit: cover;
+  z-index: 1;
+}
+.img01Icon {
+  position: absolute;
+  top: 0;
+  left: 160px;
+  width: 540px;
+  height: 600px;
+}
+.img2Icon,
+.img3Icon,
+.img4Icon,
+.img5Icon {
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+.img2Parent {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.loadingIndicator {
+  align-self: stretch;
+  height: 626px;
+  position: relative;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--px-heading-5-size);
+  color: var(--dark-colors-white-dark);
+  font-family: var(--px-heading-5);
+}
+@media screen and (max-width: 450px) {
+  .liraEarrings {
+    font-size: var(--font-size-2xl);
+    line-height: 28px;
+  }
+  .empty {
+    font-size: var(--px-heading-5-size);
+    line-height: 21px;
+  }
+  .loadingIndicator {
+    height: auto;
+    min-height: 626;
+  }
+}

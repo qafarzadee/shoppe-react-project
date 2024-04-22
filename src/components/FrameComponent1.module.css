@@ -1,0 +1,51 @@
+.img01Icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-5xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.emptySpace,
+.ollieEarrings {
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  min-width: 121px;
+}
+.emptySpace {
+  text-transform: capitalize;
+  font-weight: 500;
+  color: var(--dark-colors-accent-dark);
+  min-width: 75px;
+  white-space: nowrap;
+}
+.img01Parent,
+.ollieEarringsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ollieEarringsParent {
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-base);
+}
+.img01Parent {
+  height: 472px;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--px-heading-4-size);
+  color: var(--dark-colors-white-dark);
+  font-family: var(--px-heading-5);
+}
+@media screen and (max-width: 450px) {
+  .emptySpace,
+  .ollieEarrings {
+    font-size: var(--px-heading-5-size);
+    line-height: 21px;
+  }
+}

@@ -1,0 +1,219 @@
+.termsOfServiceAndReturns {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--dark-colors-gray-dark);
+  box-sizing: border-box;
+}
+.contact {
+  position: relative;
+  line-height: 27px;
+  display: inline-block;
+  min-width: 73px;
+}
+.footerInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.shippingAndReturns,
+.termsOfServices {
+  position: relative;
+  line-height: 27px;
+}
+.tosPolicy {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-22xl);
+  max-width: 100%;
+}
+.giveAnEmail {
+  position: relative;
+  line-height: 27px;
+}
+.iconColor1 {
+  width: 25px;
+  height: 8.7px;
+  position: relative;
+}
+.productImages,
+.termsOfUse {
+  display: flex;
+  align-items: flex-start;
+}
+.termsOfUse {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-smi) 0 0;
+}
+.productImages {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.addToCartChild {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--dark-colors-white-dark);
+  box-sizing: border-box;
+}
+.addToCart,
+.iconColor {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.addToCart {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.iconColor {
+  width: 396px;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.shippingReturns,
+.termsOfServiceAndReturnsParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.termsOfServiceAndReturnsParent {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-17xl);
+}
+.copyrightInfo,
+.copyrightInfoChild {
+  align-self: stretch;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.copyrightInfoChild {
+  flex: 1;
+  position: relative;
+  border-top: 1px solid var(--dark-colors-gray-dark);
+  z-index: 1;
+}
+.copyrightInfo {
+  height: 67px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-47xl);
+  margin-top: -10px;
+}
+.span {
+  color: var(--dark-colors-gray-dark);
+}
+.privacyPolicy,
+.termsOfUse1 {
+  color: var(--dark-colors-light-gray-dark);
+}
+.shellyTermsOfContainer {
+  position: relative;
+  line-height: 27px;
+  display: inline-block;
+  max-width: 100%;
+}
+.iconColor2,
+.iconColor3,
+.iconColor4 {
+  height: 18px;
+  width: 18.5px;
+  position: relative;
+}
+.iconColor3,
+.iconColor4 {
+  width: 10px;
+}
+.iconColor4 {
+  width: 18px;
+}
+.iconColorWrapper {
+  width: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.iconColor5 {
+  width: 20px;
+  height: 17px;
+  position: relative;
+}
+.footerIconColor,
+.iconColorParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footerIconColor {
+  width: 20px;
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.iconColorParent {
+  flex-direction: row;
+  gap: var(--gap-10xl-8);
+}
+.footer,
+.shellyTermsOfUseAndPrivaParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.shellyTermsOfUseAndPrivaParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  margin-top: -10px;
+  color: var(--dark-colors-white-dark);
+}
+.footer {
+  width: 1248px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 var(--padding-11xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--px-heading-5-size);
+  color: var(--dark-colors-light-gray-dark);
+  font-family: var(--px-heading-5);
+}
+@media screen and (max-width: 1050px) {
+  .shippingReturns {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .tosPolicy {
+    flex-wrap: wrap;
+    gap: var(--gap-xl);
+  }
+  .termsOfServiceAndReturnsParent {
+    gap: var(--gap-lg);
+  }
+  .shellyTermsOfUseAndPrivaParent {
+    flex-wrap: wrap;
+  }
+}

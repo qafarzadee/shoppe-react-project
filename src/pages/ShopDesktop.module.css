@@ -1,0 +1,698 @@
+.search,
+.title {
+  position: relative;
+}
+.title {
+  margin: 0;
+  font-size: inherit;
+  line-height: 43px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.search {
+  line-height: 22px;
+  display: inline-block;
+  min-width: 53px;
+}
+.searchWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-2) 0 0;
+}
+.iconColor {
+  height: 19px;
+  width: 19px;
+  position: relative;
+}
+.frameParent2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.lastName {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--dark-colors-gray-dark);
+  box-sizing: border-box;
+}
+.frameParent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 11px;
+  color: var(--dark-colors-gray-dark);
+}
+.shopBy {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 54px;
+}
+.frameChild {
+  height: 53px;
+  width: 261px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--dark-colors-gray-dark);
+  box-sizing: border-box;
+  display: none;
+}
+.iconColor1 {
+  width: 14px;
+  height: 7.9px;
+  position: relative;
+  object-fit: contain;
+  z-index: 2;
+}
+.iconColorWrapper,
+.shopByParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+}
+.shopByParent {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--dark-colors-gray-dark);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-smi) var(--padding-smi) var(--padding-sm)
+    var(--padding-2xs);
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.sortBy {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 48px;
+}
+.frameItem {
+  height: 53px;
+  width: 261px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--dark-colors-gray-dark);
+  box-sizing: border-box;
+  display: none;
+}
+.iconColor2 {
+  width: 14px;
+  height: 7.9px;
+  position: relative;
+  object-fit: contain;
+  z-index: 2;
+}
+.iconColorContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+}
+.frameParent3,
+.sortByParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.sortByParent {
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--dark-colors-gray-dark);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-smi) var(--padding-smi) var(--padding-sm)
+    var(--padding-2xs);
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.frameParent3 {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.priceLineIcon {
+  align-self: stretch;
+  height: 10px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.filter,
+.price40 {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 111px;
+}
+.filter {
+  color: var(--dark-colors-accent-dark);
+  min-width: 33px;
+}
+.price40180Parent,
+.priceLineParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.price40180Parent {
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.priceLineParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 8px;
+  color: var(--dark-colors-gray-dark);
+}
+.iconColor3,
+.onSale {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.onSale {
+  line-height: 27px;
+  display: inline-block;
+  min-width: 56px;
+}
+.iconColor3 {
+  width: 33.3px;
+  height: 20px;
+}
+.iconColorFrame,
+.onSaleParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.onSaleParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 0 var(--padding-9xs);
+  gap: var(--gap-xl);
+  font-size: var(--px-heading-5-size);
+}
+.iconColor4,
+.inStock {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.inStock {
+  line-height: 27px;
+  display: inline-block;
+  min-width: 58px;
+}
+.iconColor4 {
+  width: 33.3px;
+  height: 20px;
+}
+.iconColorWrapper1 {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.frameDiv,
+.iconColorWrapper1,
+.inStockParent {
+  display: flex;
+  align-items: flex-start;
+}
+.inStockParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--px-heading-5-size);
+}
+.frameDiv {
+  width: 262px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-19xl);
+  min-width: 262px;
+}
+.img01Icon {
+  height: 300px;
+  width: 300px;
+  border-radius: var(--br-5xs);
+  object-fit: cover;
+  display: none;
+}
+.div,
+.img01Icon,
+.saleChild {
+  position: relative;
+}
+.saleChild {
+  height: 24px;
+  width: 46px;
+  border-radius: var(--br-9xs);
+  background-color: var(--dark-colors-accent-dark);
+  display: none;
+}
+.div {
+  line-height: 20px;
+  display: inline-block;
+  min-width: 30px;
+  z-index: 1;
+}
+.img01Parent,
+.sale {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sale {
+  border-radius: var(--br-9xs);
+  background-color: var(--dark-colors-accent-dark);
+  padding: var(--padding-11xs) var(--padding-5xs);
+  white-space: nowrap;
+  z-index: 1;
+}
+.img01Parent {
+  align-self: stretch;
+  height: 300px;
+  border-radius: var(--br-5xs);
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.div1,
+.liraEarrings {
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  min-width: 114px;
+}
+.div1 {
+  text-transform: capitalize;
+  font-weight: 500;
+  color: var(--dark-colors-accent-dark);
+  min-width: 74px;
+  white-space: nowrap;
+}
+.frameContainer,
+.frameParent4,
+.liraEarringsParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.liraEarringsParent {
+  flex-direction: column;
+  gap: var(--gap-base);
+  font-size: var(--px-heading-4-size);
+}
+.frameContainer,
+.frameParent4 {
+  flex: 1;
+}
+.frameParent4 {
+  flex-direction: column;
+  gap: var(--gap-5xl);
+  min-width: 195px;
+  font-size: var(--px-body-small-size);
+}
+.frameContainer {
+  flex-direction: row;
+  gap: 35px;
+  min-width: 388px;
+  max-width: 100%;
+  font-size: var(--px-body-medium-size);
+}
+.img02Icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-5xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.add,
+.halEarrings {
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  min-width: 109px;
+}
+.add {
+  text-transform: capitalize;
+  font-weight: 500;
+  color: var(--dark-colors-accent-dark);
+  min-width: 73px;
+  white-space: nowrap;
+}
+.halEarringsParent,
+.img02Parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.img02Parent {
+  height: 392px;
+  width: 300px;
+  gap: var(--gap-5xl);
+}
+.img04Icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-5xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.div2,
+.kaedeHairPin {
+  position: relative;
+  line-height: 26px;
+}
+.div2 {
+  text-transform: capitalize;
+  font-weight: 500;
+  color: var(--dark-colors-accent-dark);
+  display: inline-block;
+  min-width: 75px;
+  white-space: nowrap;
+}
+.img04Parent,
+.kaedeHairPinSetOf3Parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.img04Parent {
+  height: 392px;
+  width: 300px;
+  gap: var(--gap-5xl);
+}
+.frameGroup,
+.img04Icon1 {
+  align-self: stretch;
+  max-width: 100%;
+}
+.frameGroup {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.img04Icon1 {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.div3,
+.hairPinSet {
+  position: relative;
+  line-height: 26px;
+}
+.div3 {
+  text-transform: capitalize;
+  font-weight: 500;
+  color: var(--dark-colors-accent-dark);
+  display: inline-block;
+  min-width: 75px;
+  white-space: nowrap;
+}
+.hairPinSetOf3Parent,
+.img04Group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.img04Group {
+  height: 392px;
+  gap: var(--gap-5xl);
+}
+.img05Icon,
+.saleItem {
+  position: relative;
+  display: none;
+}
+.img05Icon {
+  height: 300px;
+  width: 300px;
+  border-radius: var(--br-5xs);
+  object-fit: cover;
+}
+.saleItem {
+  height: 24px;
+  width: 63px;
+  border-radius: var(--br-9xs);
+  background-color: var(--dark-colors-accent-dark);
+}
+.soldOut {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 47px;
+  z-index: 1;
+}
+.img05Parent,
+.sale1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sale1 {
+  border-radius: var(--br-9xs);
+  background-color: var(--dark-colors-accent-dark);
+  padding: var(--padding-11xs) var(--padding-5xs);
+  white-space: nowrap;
+  z-index: 1;
+}
+.img05Parent {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-5xs);
+  padding: var(--padding-2xl) var(--padding-sm);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.div4,
+.plaineNecklace {
+  position: relative;
+  line-height: 26px;
+}
+.div4 {
+  text-transform: capitalize;
+  font-weight: 500;
+  color: var(--dark-colors-accent-dark);
+  display: inline-block;
+  min-width: 69px;
+  white-space: nowrap;
+}
+.frameParent6,
+.plaineNecklaceParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+  font-size: var(--px-heading-4-size);
+}
+.frameParent6 {
+  height: 393px;
+  gap: var(--gap-5xl);
+  font-size: var(--px-body-small-size);
+}
+.img07Icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-5xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.whatIsYour,
+.yukiHairPin {
+  position: relative;
+  line-height: 26px;
+}
+.whatIsYour {
+  text-transform: capitalize;
+  font-weight: 500;
+  color: var(--dark-colors-accent-dark);
+  display: inline-block;
+  min-width: 73px;
+  white-space: nowrap;
+}
+.img07Parent,
+.yukiHairPinSetOf3Parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.img07Parent {
+  height: 392px;
+  gap: var(--gap-5xl);
+}
+.frameParent,
+.frameParent5 {
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent5 {
+  width: 948px;
+  display: grid;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-5xl);
+  grid-template-columns: repeat(3, minmax(225px, 1fr));
+}
+.frameParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 52px;
+}
+.frameWrapper,
+.shopDesktop,
+.titleParent {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-10xs);
+  max-width: 100%;
+  font-size: var(--px-heading-4-size);
+}
+.shopDesktop,
+.titleParent {
+  flex-direction: column;
+}
+.titleParent {
+  width: 1248px;
+  align-items: flex-start;
+  padding: 0 0 153px;
+  gap: 38.8px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--px-heading-1-size);
+  color: var(--dark-colors-white-dark);
+  font-family: var(--px-heading-5);
+}
+.shopDesktop {
+  width: 100%;
+  position: relative;
+  background-color: var(--dark-colors-black-dark);
+  overflow: hidden;
+  align-items: center;
+  padding: var(--padding-29xl) var(--padding-xl) 106px;
+  gap: 96px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1100px) {
+  .titleParent {
+    padding-bottom: 99px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .title {
+    font-size: var(--px-heading-2-size);
+    line-height: 34px;
+  }
+  .frameParent5 {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(225px, 390px));
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameDiv {
+    flex: 1;
+  }
+  .frameContainer {
+    flex-wrap: wrap;
+    gap: var(--gap-mid);
+    min-width: 100%;
+  }
+  .frameParent {
+    gap: 26px;
+  }
+  .titleParent {
+    gap: var(--gap-lgi);
+    padding-bottom: var(--padding-45xl);
+    box-sizing: border-box;
+  }
+  .shopDesktop {
+    gap: var(--gap-29xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .title {
+    font-size: var(--px-heading-4-size);
+    line-height: 26px;
+  }
+  .frameDiv {
+    gap: var(--gap-lgi);
+  }
+  .add,
+  .div1,
+  .div2,
+  .div3,
+  .div4,
+  .hairPinSet,
+  .halEarrings,
+  .kaedeHairPin,
+  .liraEarrings,
+  .plaineNecklace,
+  .whatIsYour,
+  .yukiHairPin {
+    font-size: var(--px-heading-5-size);
+    line-height: 21px;
+  }
+  .frameParent5 {
+    grid-template-columns: minmax(225px, 1fr);
+  }
+  .shopDesktop {
+    gap: var(--gap-5xl);
+  }
+}

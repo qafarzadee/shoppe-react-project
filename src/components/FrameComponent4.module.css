@@ -1,0 +1,97 @@
+.message {
+  position: relative;
+  line-height: 27px;
+  display: inline-block;
+  min-width: 66px;
+}
+.frameChild {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--dark-colors-gray-dark);
+  box-sizing: border-box;
+}
+.messageParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-25xl);
+}
+.buttonChild {
+  height: 53px;
+  width: 500px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--dark-colors-white-dark);
+  display: none;
+  max-width: 100%;
+}
+.send {
+  position: relative;
+  display: inline-block;
+  min-width: 42px;
+  z-index: 1;
+}
+.button,
+.buttonWrapper {
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.button {
+  width: 500px;
+  border-radius: var(--br-9xs);
+  background-color: var(--dark-colors-white-dark);
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-base) var(--padding-xl);
+  max-width: 100%;
+}
+.buttonWrapper {
+  width: 894px;
+  padding: 0 var(--padding-xl);
+  color: var(--dark-colors-black-dark);
+}
+.buttonWrapper,
+.contactDesktopInner,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 908px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-76xl);
+}
+.contactDesktopInner {
+  width: 1248px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 0 var(--padding-123xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--px-heading-5-size);
+  color: var(--dark-colors-light-gray-dark);
+  font-family: var(--px-heading-5);
+}
+@media screen and (max-width: 950px) {
+  .frameParent {
+    gap: var(--gap-28xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .messageParent {
+    gap: var(--gap-3xl);
+  }
+  .frameParent {
+    gap: var(--gap-5xl);
+  }
+  .contactDesktopInner {
+    padding-bottom: var(--padding-73xl);
+    box-sizing: border-box;
+  }
+}
