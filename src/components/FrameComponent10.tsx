@@ -1,5 +1,6 @@
 import { FunctionComponent } from "react";
 import styles from "./FrameComponent10.module.css";
+import { Link } from "react-router-dom";
 
 const FrameComponent10: FunctionComponent = () => {
   return (
@@ -13,7 +14,9 @@ const FrameComponent10: FunctionComponent = () => {
           <div className={styles.menuParent}>
             <div className={styles.menu}>
               <div className={styles.shopWrapper}>
-                <div className={styles.shop}>Shop</div>
+                <div className={styles.shop}>
+                  <Link to={"/shop"}>Shop</Link>
+                </div>
               </div>
               <div className={styles.blogWrapper}>
                 <div className={styles.blog}>Blog</div>
@@ -34,12 +37,14 @@ const FrameComponent10: FunctionComponent = () => {
                   />
                 </div>
                 <div className={styles.shoppingCart1Wrapper}>
-                  <img
-                    className={styles.shoppingCart1Icon}
-                    loading="lazy"
-                    alt=""
-                    src="/shoppingcart-1.svg"
-                  />
+                  <Link to={"/cart"}>
+                    <img
+                      className={styles.shoppingCart1Icon}
+                      loading="lazy"
+                      alt=""
+                      src="/shoppingcart-1.svg"
+                    />
+                  </Link>
                 </div>
                 <img
                   className={styles.iconColor1}

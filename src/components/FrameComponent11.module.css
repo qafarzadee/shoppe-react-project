@@ -229,3 +229,8 @@
     line-height: 21px;
   }
 }
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
